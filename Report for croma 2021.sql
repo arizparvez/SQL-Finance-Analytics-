@@ -5,7 +5,6 @@
 -- Gross Price Per Item
 -- Gross Price Total 
 
-
 select 
      s.date,s.product_code,p.product,p.variant,s.sold_quantity,g.gross_price,
      round(g.gross_price*s.sold_quantity,2) as gross_price_total
