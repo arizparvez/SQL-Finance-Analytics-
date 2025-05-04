@@ -1,8 +1,10 @@
 # SQL-Finance-Analytics
-1)  Generated a report for customer croma with customer code as 90002002.
-2) Report include fields as month, product, variant, sold quantity, gross price per item, gross price total of individual product sales.
-3) Join 3 table namely fact_sales_monthly, dim product, fact_gross_price by using the left join.
-4) Create a user define function namely get_fiscal_year which taking input as calendar date and giving output as fiscal year.
-5) Create a user define function namely get_fiscal_quarter which taking input as calendar date and giving output as fiscal quarter.
-6) Used order by clause to get date in descending order and limit the data set to 1 million rows.
-7) Create store procedure namely get_monthly_gross_sales_for_customer which taking customer code as input and giving output as gross price total which is the product of sold quantity and gross price.
+Delivered an automated, easy-to-interpret monthly sales report that provided Croma-focused product-level insights. This enabled stakeholders to track revenue, assess product trends, and support data-driven decisions for inventory and sales planning.
+
+***AtliQ Hardware SQL Project: A Step-by-Step Execution Plan:***
+-  Created User-Defined Function get_fiscal_year(date) : Returns fiscal year based on the input date (April–March format).
+-  Created User-Defined Function get_fiscal_quarter(date): Returns fiscal quarter (Q1–Q4) based on input date.
+-  Joined Tables:  Used LEFT JOIN to combine fact_sales_monthly, dim_product, and fact_gross_price.
+-  Generated Report for Customer 90002002:  Included fields - month, product, variant, sold quantity, gross price per item, and gross price total.
+-  Created Stored Procedure get_monthly_gross_sales_for_customer(customer_code): Accepts a customer code, outputs sales report (max 1 million rows), ordered by month (descending).
+-  Calculated Gross Price Total – As product of sold quantity × gross price per item.
