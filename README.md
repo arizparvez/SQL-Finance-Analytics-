@@ -1,6 +1,6 @@
 # SQL-Finance-Analytics
 Delivered an automated, easy-to-interpret monthly sales report that provided Croma-focused product-level insights. This enabled stakeholders to track revenue, assess product trends, and support data-driven decisions for inventory and sales planning.
-
+***
 ***AtliQ Hardware SQL Project: A Step-by-Step Execution Plan:***
 -  Created User-Defined Function get_fiscal_year(date) : Returns fiscal year based on the input date (April–March format).
 -  Created User-Defined Function get_fiscal_quarter(date): Returns fiscal quarter (Q1–Q4) based on input date.
