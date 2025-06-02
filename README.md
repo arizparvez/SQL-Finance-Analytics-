@@ -1,4 +1,4 @@
-# SQL Sales Analytics:
+# SQL Finance Analytics:
 **Problem Statement:**
 
 Delivered an automated, easy-to-interpret monthly sales report that provided Croma-focused product-level insights. This enabled stakeholders to track revenue, assess product trends, and support data-driven decisions for inventory and sales planning.
